@@ -38,12 +38,16 @@ def func(src, dest):
 
 
 # Example usage:
-source_directory = r'E:\ITI_scolarship\Labs\PY\final_project\real_life_use_case_function\src'
+
+### get your dir full path
+source_directory = r'src'
 
 #dir exists 
-# destination_directory = r'E:\ITI_scolarship\Labs\PY\final_project\real_life_use_case_function\dst'
+### get your dir full path
+# destination_directory = r'dst'
 
 #dir not exists 
-destination_directory = r'E:\ITI_scolarship\Labs\PY\final_project\real_life_use_case_function\dest'
+### get your dir full path
+destination_directory = r'dest'
 
 func(source_directory, destination_directory)
